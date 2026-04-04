@@ -1,0 +1,9 @@
+Coloca aquí tus imágenes:
+
+- cover-bg.jpg   → Imagen de fondo de la portada
+- project-1.jpg  → Imagen del proyecto 1
+- project-2.jpg  → Imagen del proyecto 2
+- project-3.jpg  → Imagen del proyecto 3
+
+Formatos recomendados: JPG o PNG
+Resolución mínima recomendada: 1800 × 1400 px para calidad de impresión

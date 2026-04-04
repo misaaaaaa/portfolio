@@ -1,0 +1,499 @@
+/* ============================================================
+   PORTFOLIO — Tema editorial oscuro
+   Formato: A4 horizontal (297mm × 210mm)
+   Pipeline: Markdown → Pandoc → HTML → paged.js → PDF
+   ============================================================ */
+
+/* ---- VARIABLES ---- */
+:root {
+  --bg:           #0d0d0d;
+  --text:         #e2ddd5;
+  --text-dim:     #5c5956;
+  --accent:       #a0a0a0;
+  --border:       #1c1c1c;
+  --page-w:       297mm;
+  --page-h:       210mm;
+}
+
+/* ---- RESET ---- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---- FUENTES ---- */
+/* Cormorant — encabezados y elementos editoriales         */
+/* Jost      — cuerpo de texto, etiquetas, metadata        */
+
+/* ---- CONFIGURACIÓN DE PÁGINA (paged.js) ---- */
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Fondo oscuro en cada hoja generada por paged.js */
+.pagedjs_page {
+  background: var(--bg) !important;
+}
+
+
+/* ============================================================
+   PORTADA
+   ============================================================ */
+.cover {
+  width: var(--page-w);
+  height: var(--page-h);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.65in 0.8in;
+  break-after: page;
+  overflow: hidden;
+
+  /* Imagen de fondo de portada */
+  background-image: url('images/lamemoria4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Capa de oscurecimiento sobre la imagen */
+.cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(13, 13, 13, 0.97) 0%,
+    rgba(13, 13, 13, 0.75) 45%,
+    rgba(13, 13, 13, 0.40) 100%
+  );
+  z-index: 0;
+}
+
+/* Línea decorativa vertical */
+.cover::after {
+  content: '';
+  position: absolute;
+  top: 0.65in;
+  left: 0.8in;
+  width: 1px;
+  height: 0.5in;
+  background: var(--accent);
+  z-index: 1;
+}
+
+/* Todo el contenido de la portada por encima del overlay */
+.cover > * {
+  position: relative;
+  z-index: 1;
+}
+
+.cover h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 60pt;
+  line-height: 1.0;
+  letter-spacing: -1px;
+  color: var(--text);
+  margin-bottom: 0.45in;
+}
+
+/* Clase para el span del subtítulo año dentro del h1 */
+.cover .cover-title {
+  display: block;
+}
+
+.cover-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08in;
+}
+
+.cover .artist-name {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 11pt;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.cover .url {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Año en esquina superior derecha */
+.cover-year {
+  position: absolute;
+  top: 0.65in;
+  right: 0.8in;
+  font-family: 'Jost', sans-serif;
+  font-size: 8pt;
+  letter-spacing: 0.3em;
+  color: var(--text-dim);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  z-index: 1;
+}
+
+
+/* ============================================================
+   SECCIÓN BIOGRAFÍA
+   ============================================================ */
+.bio {
+  width: var(--page-w);
+  height: var(--page-h);
+  display: grid;
+  grid-template-columns: 88mm 209mm;
+  break-after: page;
+}
+
+/* Columna izquierda — etiqueta */
+.bio > h2:first-child,
+.bio > h2 {
+  grid-column: 1;
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+  font-size: 11pt;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 0 0.8in;
+  border-right: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Columna derecha — contenedor de párrafos (hasta 3) */
+.bio-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1in;
+}
+
+.bio-body p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13pt;
+  line-height: 1.9;
+  color: var(--text);
+}
+
+.bio-body p + p {
+  margin-top: 1.2em;
+}
+
+
+/* ============================================================
+   SECCIÓN STATEMENT
+   ============================================================ */
+.statement {
+  width: var(--page-w);
+  height: var(--page-h);
+  display: grid;
+  grid-template-columns: 88mm 209mm;
+  break-after: page;
+}
+
+/* Columna izquierda: etiqueta + imagen vertical opcional */
+.statement-left {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.statement-left > h2 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 0.6in 0.8in 0.4in 0.8in;
+  flex-shrink: 0;
+}
+
+/* Imagen vertical opcional en la columna izquierda */
+.statement-image {
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.statement-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Columna derecha — texto */
+.statement-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1in;
+}
+
+.statement-body p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13pt;
+  line-height: 1.9;
+  color: var(--text);
+}
+
+.statement-body p + p {
+  margin-top: 1.2em;
+}
+
+
+/* ============================================================
+   PROYECTOS
+   ============================================================ */
+.project {
+  width: var(--page-w);
+  height: var(--page-h);
+  display: grid;
+  grid-template-columns: 178mm 119mm;
+  break-after: page;
+}
+
+/* Variante con imagen a la derecha */
+.project.project-right {
+  grid-template-columns: 119mm 178mm;
+}
+
+.project.project-right .project-image {
+  order: 2;
+}
+
+.project.project-right .project-text {
+  order: 1;
+  border-left: none;
+  border-right: 1px solid var(--border);
+}
+
+/* --- Imagen --- */
+.project-image {
+  height: var(--page-h);
+  overflow: hidden;
+  position: relative;
+}
+
+.project-image figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-image figcaption {
+  position: absolute;
+  bottom: 0.2in;
+  left: 0.3in;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5pt;
+  letter-spacing: 0.12em;
+  color: rgba(226, 221, 213, 0.45);
+  pointer-events: none;
+}
+
+/* --- Texto --- */
+.project-text {
+  padding: 0 0.6in 0.6in 0.65in;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-left: 1px solid var(--border);
+  position: relative;
+}
+
+/* Número de proyecto en fondo */
+.project-text .project-number {
+  position: absolute;
+  top: 0.3in;
+  left: 0.5in;
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+  font-size: 140pt;
+  line-height: 1;
+  color: #161616;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Título del proyecto */
+.project-text h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 28pt;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 0.07in;
+  position: relative;
+  z-index: 1;
+}
+
+/* Descripción */
+.project-text p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9pt;
+  line-height: 1.7;
+  color: var(--text-dim);
+  margin-bottom: 0.12in;
+  padding-left: 0.2in;
+  position: relative;
+  z-index: 1;
+}
+
+/* Eliminar padding extra en el párrafo del subtítulo y materiales */
+.project-text p:has(.project-subtitle),
+.project-text p:has(.project-materials) {
+  padding-left: 0;
+  margin-bottom: 0.05in;
+}
+
+/* Materialidad */
+.project-materials {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8pt;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  opacity: 0.7;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.18in;
+}
+
+/* Hipervínculo / técnica */
+.project-text a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9pt;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--accent);
+  padding-bottom: 3px;
+  align-self: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+/* Línea separadora sobre el hipervínculo */
+.project-text p:last-of-type {
+  margin-bottom: 0.08in;
+}
+
+/* Subtítulo de categoría (instalación, concierto, residencia, etc.) */
+.project-subtitle {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5pt;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ============================================================
+   PÁGINA IMAGEN COMPLETA
+   ============================================================ */
+.fullpage {
+  width: var(--page-w);
+  height: var(--page-h);
+  break-after: page;
+  overflow: hidden;
+  position: relative;
+}
+
+.fullpage figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fullpage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fullpage figcaption {
+  position: absolute;
+  bottom: 0.35in;
+  right: 0.45in;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5pt;
+  letter-spacing: 0.12em;
+  color: rgba(226, 221, 213, 0.55);
+  text-align: right;
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   NÚMERO DE PÁGINA (barra inferior)
+   ============================================================ */
+@page {
+  @bottom-right {
+    content: counter(page);
+    font-family: 'Jost', sans-serif;
+    font-size: 7pt;
+    color: #2e2e2e;
+    margin: 0 0.4in 0.3in 0;
+  }
+}
+
+
+/* ============================================================
+   UTILIDADES PARA PREVISUALIZACIÓN EN NAVEGADOR
+   ============================================================ */
+@media screen {
+  body {
+    padding: 0.5in;
+  }
+
+  .cover,
+  .bio,
+  .statement,
+  .project {
+    margin-bottom: 0.25in;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  }
+}

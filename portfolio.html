@@ -1,0 +1,199 @@
+<!-- ============================================================
+     PLANTILLA DE PORTAFOLIO
+     Este documento es construido por content.md a partir de template.html, que contiene la estructura general y estilos.
+     Para crear un nuevo portafolio, modifica el contenido en content.md y luego ejecuta el comando de construcción para generar el HTML final.
+     toda la información sobre la ejecución se encuentra en
+     https://github.com/misaaaaaa/portfolio
+     ============================================================ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>misaa - Trabajo Seleccionado 2016–2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+</head>
+<body>
+<!-- ============================================================
+     PORTADA — una sola por documento.
+     cover-title: título principal · artist-name: nombre · url: enlace al sitio
+     ============================================================ -->
+<section id="portafolio" class="cover-title cover">
+<h1 class="cover-title">Portafolio</h1>
+<div class="cover-meta">
+<p><span class="artist-name">Matías Serrano Acevedo</span></p>
+<p><a href="https://misaa.cc" class="url">https://misaa.cc</a></p>
+</div>
+</section>
+<!-- ============================================================
+     BIOGRAFÍA — una sola por documento.
+     Admite hasta 3 párrafos dentro de .bio-body.
+     ============================================================ -->
+<section id="biografía" class="bio">
+<h2>Biografía</h2>
+<div class="bio-body">
+<p>Matías Serrano Acevedo (Santiago, 1993) es artista sonoro y medial.
+Magíster en Artes Mediales (2024) y Licenciado en Artes mención Sonido
+(2017), ambos de la Universidad de Chile. Becario desde 2026 del
+programa de Doctorado en Artes y Humanidades de la Universidad de
+Santiago de Chile.</p>
+<p>Académico adjunto y parte del Núcleo de Artes Sonoras del
+Departamento de Artes Visuales de la U. de Chile. Ha presentado su
+trabajo en diversos espacios, exposiciones y festivales en Chile y
+latinoamérica y ha publicado varios álbumes bajo el pseudónimo de
+“misaa”. Desde 2022 se desempeña como docente de arte, electrónica y
+medios en carreras de artes visuales en UNIACC, UDP y U. de Chile. Creó
+la Colectiva 22bits en 2015 y el sello Archivo Veintidós en 2019 junto a
+Bárbara Molina, a través de los cuales participaron de encuentros y
+festivales de arte, tecnología, sonido y diseño en Chile, México,
+Argentina y Colombia.</p>
+</div>
+</section>
+<!-- ============================================================
+     STATEMENT — una sola por documento.
+     Para omitir la imagen vertical, elimina el bloque .statement-image.
+     statement-body admite varios párrafos.
+     ============================================================ -->
+<div class="statement">
+<section id="statement" class="statement-left">
+<h2>Statement</h2>
+<div class="statement-image">
+<p><img src="./images/uyd8-vert.jpg" /></p>
+</div>
+</section>
+<div class="statement-body">
+<p>Mi práctica está orientada a relacionar lo sonoro y lo material,
+vinculando técnicas de fabricación electrónica, hackeo y ensamblaje de
+objetos con prácticas de escucha situada y paisajismo sonoro. De
+inspiración de filosofías cosmológicas, concibo al arte sonoro como una
+exploración de los flujos y fuerzas en la naturaleza que se manifiestan
+en interacciones materiales, articuladas desde la escucha.</p>
+</div>
+</div>
+<!-- ============================================================
+     PROYECTO — copiar este bloque completo para cada obra.
+     Usa {.project} para imagen a la izquierda (por defecto)
+     Usa {.project .project-right} para imagen a la derecha
+     · project-number: número de fondo (01, 02…)
+     · h2: título de la obra
+     · project-subtitle: Instalación / Concierto / Residencia / …
+     · project-materials: circuitos, parlantes, micrófonos, pintura… (opcional)
+     · párrafo de descripción
+     · enlace: "[Técnica / Año — Ver proyecto →](url)"
+     Alt de la imagen: aparece como crédito fotográfico superpuesto.
+     ============================================================ -->
+<div class="project">
+<div class="project-image">
+<figure>
+<img src="./images/llluvia7.jpg" alt="Imagen del Proyecto Uno" />
+<figcaption aria-hidden="true">Imagen del Proyecto Uno</figcaption>
+</figure>
+</div>
+<div class="project-text">
+<p><span class="project-number">01</span></p>
+<h2 id="llluvia-metropolitana">Llluvia Metropolitana</h2>
+<p><span class="project-subtitle">Instalación</span> <span
+class="project-materials">Circuitos electrónicos, micrófonos, parlantes,
+madera, andamio</span></p>
+<p>“<em>Llluvia Metropolitana</em> emerge alrededor de una premisa
+sonora que intenciona la experiencia sensible con el clima. Los artistas
+instalaron un sistema de grabación en los techos de zinc de la galería
+durante el período de lluvias invernales. Parte de este registro se nos
+presenta desde una altura a la que podemos acceder cuando subimos por un
+andamio reforzado. Se propone entonces un encuentro entre una lluvia
+anterior, o quizás una lluvia en pausa, que frente a la sensación
+atmosférica calurosa y seca, propia de enero en la ciudad, propone a lo
+menos una disonancia.”</p>
+<p><a
+href="https://misaa.cc/projects/llluviametropolitana.html">Instalación
+Sonora junto a Rainer Krause/ 2026 — Ver en misaa.cc/ →</a></p>
+</div>
+</div>
+<div class="project">
+<div class="project-image">
+<figure>
+<img src="./images/llluvia9.jpg" alt="Imagen del Proyecto Uno" />
+<figcaption aria-hidden="true">Imagen del Proyecto Uno</figcaption>
+</figure>
+</div>
+<div class="project-text">
+<p><span class="project-number">01</span></p>
+<h2 id="llluvia-metropolitana-1">Llluvia Metropolitana</h2>
+<p><span class="project-subtitle">Instalación</span> <span
+class="project-materials">Circuitos electrónicos, micrófonos, parlantes,
+madera, andamio</span></p>
+<p>El proyecto expositivo consiste en una sola gran obra ensamblada a
+partir de elementos co-construidos entre Rainer y Matías, y de
+ejercicios realizados de manera independiente. El eje de la muestra es
+el sonido de la lluvia, que fue grabada por medio de un sistema de 4
+micrófonos instalados cerca del techo de zinc del espacio durante los
+meses de junio, julio y agosto de 2025, que registraban en un computador
+controlado de manera remota el sonido de cada evento de lluvia. En
+total, se registraron alrededor de 164 GB de audio, lo que equivale a
+unas 126 horas de audio a 4 canales, aproximadamente. Estos fueron
+editados y mezclado en una banda sonora de 4 horas, que se reproduce en
+la sala durante el horario de apertura de la galería.</p>
+<p><a
+href="https://misaa.cc/projects/llluviametropolitana.html">Instalación
+Sonora junto a Rainer Krause/ 2026 — Ver en misaa.cc/ →</a></p>
+</div>
+</div>
+<div class="project project-right">
+<div class="project-image">
+<figure>
+<img src="https://picsum.photos/seed/art2/900/700"
+alt="Imagen del Proyecto Dos" />
+<figcaption aria-hidden="true">Imagen del Proyecto Dos</figcaption>
+</figure>
+</div>
+<div class="project-text">
+<p><span class="project-number">02</span></p>
+<h2 id="título-del-proyecto-dos">Título del Proyecto Dos</h2>
+<p><span class="project-subtitle">Concierto</span> <span
+class="project-materials">Materiales del proyecto</span></p>
+<p>Descripción del proyecto. Aquí va un texto que explica el concepto,
+el proceso y los materiales utilizados. Puede incluir el año, el
+contexto de exhibición y otras notas relevantes sobre la obra.</p>
+<p><a href="https://example.com">Instalación / 2023 — Ver proyecto
+→</a></p>
+</div>
+</div>
+<div class="project">
+<div class="project-image">
+<figure>
+<img src="https://picsum.photos/seed/art3/900/700"
+alt="Imagen del Proyecto Tres" />
+<figcaption aria-hidden="true">Imagen del Proyecto Tres</figcaption>
+</figure>
+</div>
+<div class="project-text">
+<p><span class="project-number">03</span></p>
+<h2 id="título-del-proyecto-tres">Título del Proyecto Tres</h2>
+<p><span class="project-subtitle">Residencia</span> <span
+class="project-materials">Materiales del proyecto</span></p>
+<p>Descripción del proyecto. Aquí va un texto que explica el concepto,
+el proceso y los materiales utilizados. Puede incluir el año, el
+contexto de exhibición y otras notas relevantes sobre la obra.</p>
+<p><a href="https://example.com">Video / 2024 — Ver proyecto →</a></p>
+</div>
+</div>
+<!-- ============================================================
+     PÁGINA IMAGEN COMPLETA — copiar este bloque para cada imagen a pantalla completa.
+     El texto del alt ![...] aparece como crédito fotográfico
+     superpuesto en la esquina inferior derecha.
+     ============================================================ -->
+<div class="fullpage">
+<figure>
+<img src="./images/llluvia7.jpg"
+alt="Llluvia Metropolitana, 2026. Foto: Nombre Apellido" />
+<figcaption aria-hidden="true">Llluvia Metropolitana, 2026. Foto: Nombre
+Apellido</figcaption>
+</figure>
+</div>
+</body>
+</html>
