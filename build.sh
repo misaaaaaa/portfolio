@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 # ============================================================
-# build.sh — Genera el HTML del portafolio desde Markdown
+# build.sh — Compila el HTML y abre Chrome para previsualizar
 #
 # Requisito: pandoc instalado
 #   macOS:  brew install pandoc
 #   Linux:  sudo apt install pandoc
 #   Win:    https://pandoc.org/installing.html
 #
-# Uso:
-#   chmod +x build.sh
-#   ./build.sh
-#
-# Luego abre portfolio.html en Chrome y usa Ctrl+P → Guardar como PDF
+# Para exportar a PDF automáticamente, usa:
+#   ./export-pdf.sh
 # ============================================================
 
 set -e
@@ -33,7 +30,6 @@ echo "✓ Listo: $OUTPUT"
 echo ""
 
 # paged.js necesita HTTP para leer el CSS (file:// bloquea el XHR en Chrome).
-# Levantamos un servidor local efímero y abrimos el navegador automáticamente.
 PORT=8787
 echo "→ Iniciando servidor local en http://localhost:$PORT/$OUTPUT ..."
 python3 -m http.server "$PORT" &

@@ -26,7 +26,7 @@ lang: es
 ## Biografía
 
 ::: {.bio-body}
-Matías Serrano Acevedo (Santiago, 1993) es artista sonoro y medial. Magíster en Artes Mediales (2024) y Licenciado en Artes mención Sonido (2017), ambos de la Universidad de Chile. Becario desde 2026 del programa de Doctorado en Artes y Humanidades de la Universidad de Santiago de Chile. 
+Matías Serrano Acevedo (Santiago, 1993) es artista sonoro y electrónico. Magíster en Artes Mediales (2024) y Licenciado en Artes mención Sonido (2017), ambos de la Universidad de Chile. Becario desde 2026 del programa de Doctorado en Artes y Humanidades de la Universidad de Santiago de Chile. 
 
 Académico adjunto y parte del Núcleo de Artes Sonoras del Departamento de Artes Visuales de la U. de Chile. Ha presentado su trabajo en diversos espacios, exposiciones y festivales en Chile y latinoamérica y ha publicado varios álbumes bajo el pseudónimo de “misaa”. Desde 2022 se desempeña como docente de arte, electrónica y medios en carreras de artes visuales en UNIACC, UDP y U. de Chile. Creó la Colectiva 22bits en 2015 y el sello Archivo Veintidós en 2019 junto a Bárbara Molina, a través de los cuales participaron de encuentros y festivales de arte, tecnología, sonido y diseño en Chile, México, Argentina y Colombia.
 :::
@@ -43,12 +43,14 @@ Académico adjunto y parte del Núcleo de Artes Sonoras del Departamento de Arte
 ## Statement
 
 ::: {.statement-image}
-![](./images/uyd8-vert.jpg)
+![Fotografía por Matías Serrano](./images/uyd8-vert.jpg)
 :::
 :::
 
 ::: {.statement-body}
 Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando técnicas de fabricación electrónica, hackeo y ensamblaje de objetos con prácticas de escucha situada y paisajismo sonoro. De inspiración de filosofías cosmológicas, concibo al arte sonoro como una exploración de los flujos y fuerzas en la naturaleza que se manifiestan en interacciones materiales, articuladas desde la escucha.
+
+[“Estamos inmersos en [el ruido] hasta el cuello, hasta los ojos y hasta la coronilla, en un océano furioso, iracundo; mejor aún, somos de parte a parte la voz de este huracán, ese bramido térmico, y no sabemos nada de ello.” — Michel Serres]{.statement-quote}
 :::
 :::
 
@@ -66,83 +68,91 @@ Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando t�
      ============================================================ -->
 ::: {.project}
 ::: {.project-image}
-![Imagen del Proyecto Uno](./images/llluvia7.jpg)
+![Vista externa de galería e instalación. Fotografía por Ash Aravena](./images/llluvia7.jpg)
 :::
 
 ::: {.project-text}
-[01]{.project-number}
+## Llluvia Metropolitana (2026)
 
-## Llluvia Metropolitana
-
-[Instalación]{.project-subtitle}
-[Circuitos electrónicos, micrófonos, parlantes, madera, andamio]{.project-materials}
+[Instalación + Rainer Krause]{.project-subtitle}
+[Andamio intervenido, 5 parlantes, archivo de audio de 5 canales, 4 dibujos de acuarela y tinta china sobre papel, 3 circuitos electrónicos generadores de ruido de lluvia]{.project-materials}
 
 "_Llluvia Metropolitana_ emerge alrededor de una premisa sonora que intenciona la experiencia sensible con el clima. Los artistas instalaron un sistema de grabación en los techos de zinc de la galería durante el período de lluvias invernales. Parte de este registro se nos presenta desde una altura a la que podemos acceder cuando subimos por un andamio reforzado. Se propone entonces un encuentro entre una lluvia anterior, o quizás una lluvia en pausa, que frente a la sensación atmosférica calurosa y seca, propia de enero en la ciudad, propone a lo menos una disonancia."
 
-[Instalación Sonora junto a Rainer Krause/ 2026 — Ver en misaa.cc/ →](https://misaa.cc/projects/llluviametropolitana.html)
+[Documentación completa y video](https://misaa.cc/projects/llluviametropolitana.html)
 :::
 :::
 
 ::: {.project}
 ::: {.project-image}
-![Imagen del Proyecto Uno](./images/llluvia9.jpg)
+![Detalle de placa electrónica. Fotografía por Carolina Miguieles](./images/llluvia9.jpg)
 :::
 
 ::: {.project-text}
-[01]{.project-number}
+## Llluvia Metropolitana (2026)
 
-## Llluvia Metropolitana
-
-[Instalación]{.project-subtitle}
-[Circuitos electrónicos, micrófonos, parlantes, madera, andamio]{.project-materials}
+[Instalación + Rainer Krause]{.project-subtitle}
+<!-- [Circuitos electrónicos, micrófonos, parlantes, madera, andamio]{.project-materials} -->
 
 El proyecto expositivo consiste en una sola gran obra ensamblada a partir de elementos co-construidos entre Rainer y Matías, y de ejercicios realizados de manera independiente. El eje de la muestra es el sonido de la lluvia, que fue grabada por medio de un sistema de 4 micrófonos instalados cerca del techo de zinc del espacio durante los meses de junio, julio y agosto de 2025, que registraban en un computador controlado de manera remota el sonido de cada evento de lluvia. En total, se registraron alrededor de 164 GB de audio, lo que equivale a unas 126 horas de audio a 4 canales, aproximadamente. Estos fueron editados y mezclado en una banda sonora de 4 horas, que se reproduce en la sala durante el horario de apertura de la galería. 
 
-[Instalación Sonora junto a Rainer Krause/ 2026 — Ver en misaa.cc/ →](https://misaa.cc/projects/llluviametropolitana.html)
+[Documentación completa y video](https://misaa.cc/projects/llluviametropolitana.html)
 :::
 :::
 
-::: {.project .project-right}
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+
+::: {.project .project-right .caption-dark}
 ::: {.project-image}
-![Imagen del Proyecto Dos](https://picsum.photos/seed/art2/900/700)
+![Fotografía por Clo Rojo](./images/tent.jpg)
 :::
 
 ::: {.project-text}
-[02]{.project-number}
+## Transistores en tránsito (2025)
 
-## Título del Proyecto Dos
+[INSTALACIÓN]{.project-subtitle}
+[10 placas electrónicas con circuito de compuertas NAND y driver, 10 bobinas de baja impedancia, 10 imanes, alambre esmaltado. 120 x 270 cm
+]{.project-materials}
 
-[Concierto]{.project-subtitle}
-[Materiales del proyecto]{.project-materials}
+Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Artes Sonoras en Museo MAC de Quinta Normal. 
 
-Descripción del proyecto. Aquí va un texto que explica el concepto, el proceso y los
-materiales utilizados. Puede incluir el año, el contexto de exhibición y otras notas
-relevantes sobre la obra.
+El concepto de “nube” en la tecnología electrónica opera como una metáfora que propone un desacoplamiento de los dispositivos con la tierra. Sin embargo, ese lenguaje parece olvidar que toda tecnología tiene un origen en el suelo. El silicio, materia prima de los transistores y procesadores, es el segundo material más abundante en la tierra. El cobre conduce y conecta la geopolítica global, como sugiere Ingrid Wildi. El plástico proviene de milenarios combustibles fósiles. Según Jussi Parikka, estos elementos en su uso se degradan a sí mismos, retornando a su condición de “polvo”. En el trayecto, por medio de diversas energías, se mueven, transforman y relacionan.
 
-[Instalación / 2023 — Ver proyecto →](https://example.com)
+[Documentación completa y video](https://misaa.cc/projects/transistoresentransito.html)
 :::
 :::
+
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
 
 ::: {.project}
-::: {.project-image}
-![Imagen del Proyecto Tres](https://picsum.photos/seed/art3/900/700)
+::: {.project-image .caption-dark}
+![Vista diagonal de instalación. Fotografía por Clo Rojo](./images/untrazo4.jpg)
 :::
 
 ::: {.project-text}
-[03]{.project-number}
+## Un trazo en el oído (2025)
 
-## Título del Proyecto Tres
+[INSTALACIÓN]{.project-subtitle}
+[3 piolas de acero, 3 bobinas de alta impedancia, 3 bobinas de baja impedancia, 6 imanes de neodimio, tensores, 3 amplificadores de audio, 3 placas electrónicas con circuito astable 700 x 350 x 50 cm]{.project-materials}
 
-[Residencia]{.project-subtitle}
-[Materiales del proyecto]{.project-materials}
+ Un trazo en el oído especula sobre el vínculo entre dos hipótesis antropológicas. La primera, proveniente de la arqueoacústica, sugiere que el sitio específico de la cueva donde el sujeto prehistórico decidió realizar arte rupestre se habría elegido debido a la presencia de fenómenos sonoros extraños, generados por las propiedades acústicas del lugar.
 
-Descripción del proyecto. Aquí va un texto que explica el concepto, el proceso y los
-materiales utilizados. Puede incluir el año, el contexto de exhibición y otras notas
-relevantes sobre la obra.
-
-[Video / 2024 — Ver proyecto →](https://example.com)
+Por otra parte, Fernand Deligny realiza una metáfora sobre “lo arácnido” al insinuar que las arañas tejen sus telarañas sin necesidad de que se les eduque al respecto. A partir de ello, se pregunta qué sería “lo humano”, y sugiere que ese gesto distintivo sería el de “trazar”. A partir de lo anterior, la obra plantea que el acto de trazar/tejer comienza en la extrañeza que representan los fenómenos acústicos, a los que accedemos desde antes de nacer. 
+[Documentación completa y video](https://misaa.cc/projects/untrazoeneloido.html)
 :::
 :::
+
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
 
 <!-- ============================================================
      PÁGINA IMAGEN COMPLETA — copiar este bloque para cada imagen a pantalla completa.
@@ -150,5 +160,174 @@ relevantes sobre la obra.
      superpuesto en la esquina inferior derecha.
      ============================================================ -->
 ::: {.fullpage}
-![Llluvia Metropolitana, 2026. Foto: Nombre Apellido](./images/llluvia7.jpg)
+![Vista general "Un trazo en el oído". Fotografía por Clo Rojo](./images/untrazo5.jpg)
 :::
+
+<!-- FIN IMAGEN COMPLETA -->
+
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+
+::: {.project}
+::: {.project-image}
+![Vista de lienzo y disco duro. Fotografía por Matías Serrano](./images/ald2.jpg)
+:::
+
+::: {.project-text}
+## Amplificar la duda (2024)
+
+[PROYECTO EXPOSITIVO]{.project-subtitle}
+[7 ensamblajes basados en reproductores de audio, discos duros, atriles de micrófono y lupas. Piedras de canto rodado e impresión en canvas.]{.project-materials}
+
+ Inspirado por el trabajo audiovisual de Amel Baggs en In my language (2007) y de los dibujos de los movimientos cotidianos de niños autistas realizados por Fernand Deligny, me propuse retroceder a los gestos y rasgos que los diagnósticos psiquiátricos ligados al espectro autista buscan envolver, sugiriendo el concepto de “sensibilidad extraña”. Desde esta idea, generé instancias de escucha donde dialogué con personas adultas que, independiente de si contaban o no con un diagnóstico, me comentaron sus historias, dudas, rasgos y comportamientos que podrían ser calificados como extraños. A través de la exposición, reflexiono en torno a las percepciones, rasgos y gestos extraños, especulando sobre los límites y categorías de lo que significa ser una persona. 
+ 
+[Documentación completa y video](https://misaa.cc/projects/amplificarladuda.html)
+:::
+:::
+
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+
+
+<!-- ============================================================
+     PÁGINA IMAGEN COMPLETA — copiar este bloque para cada imagen a pantalla completa.
+     El texto del alt ![...] aparece como crédito fotográfico
+     superpuesto en la esquina inferior derecha.
+     ============================================================ -->
+::: {.fullpage .caption-dark}
+![En Amplificar la duda, al ingresar a la sala, se le ofrece al público una piedra. Fotografía por Matías Serrano](./images/ald6.jpg)
+:::
+
+<!-- FIN IMAGEN COMPLETA -->
+
+
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+
+::: {.project .project-right .caption-dark}
+::: {.project-image}
+![Fotografía por Mana Rivas](./images/mest1.jpg)
+:::
+
+::: {.project-text}
+## Museo en estéreo (2024)
+
+[INSTALACIÓN SONORA]{.project-subtitle}
+[Desarrollada en laboratorio de Sonido y Objeto en conjunto con la Unidad de Educación del Museo de Arte Contemporáneo, María Ignacia Valdebenito y vecinxs y transeúntes de las dos sedes del Museo de Arte Contemporáneo 
+]{.project-materials}
+
+"Se trata entonces de una inmersión en la geografía que se traduce en archivos sonoros y que, tras una nueva vuelta de tuerca, deviene en la serie de piezas que conforman Museo en estéreo. De manera más visible, la muestra se compone de un patio de objetos colgados. Pero junto a ellos también hay diagramas con los enunciados de las instrucciones de la caminata, un video donde se pueden observar los puntos de georeferenciación de los participantes (quienes activaron sus gps durante el recorrido), una pared con las fichas que intercambiaron y un diagrama que muestra el sistema utilizado para reproducir los archivos recolectados durante el taller." — Extracto de hoja MAC 
+
+[Documentación completa](https://misaa.cc/projects/museoenestereo.html)
+:::
+:::
+
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+
+
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+
+::: {.project}
+::: {.project-image}
+![Vista general de obra. Fotografía por Matías Serrano](./images/lamemoria2.jpg)
+:::
+
+::: {.project-text}
+## La memoria contándole a la luz el sonido de la lluvia (2023)
+
+[INSTALACIÓN]{.project-subtitle}
+[2 discos duros modificados, ampolleta incandescente, reproductor y amplificador de audio estéreo. Obra ganadora premio del público XVI Premio MAVI UC]{.project-materials}
+
+Dos discos duros son modificados para cumplir otra función. Ya no almacenan memorias, sino que según la vibración de su aguja se convierten en parlantes. El sonido que genera cada pieza es el registro de una de las últimas lluvias del 2021 en Santiago. En poca fidelidad, ambos discos duros intentan reconstruir el relato sonoro de lo que fue esa lluvia. No es posible que un aparato que no fue diseñado para reproducir sonido genere una buena experiencia sonora de la lluvia, y tampoco es posible que un aparato de registro/reproducción cualquiera se acerque mínimamente a la experiencia de la percepción. Es una lluvia torpe, que no deja charcos. 
+ 
+[Documentación completa y video](https://misaa.cc/projects/lamemoria.html)
+:::
+:::
+
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+
+
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+
+::: {.project}
+::: {.project-image}
+![Detalle intervención. Fotografía por Gustavo Espíndola](./images/espectral2.jpg)
+:::
+
+::: {.project-text}
+## Espectral (2018)
+
+[PERFORMANCE + INSTALACIÓN]{.project-subtitle}
+[Instalación sonora cuadrafónica, resultado de performance en Túnel Punta de Parra junto a AOIR Laboratorio Sonoro. Montada en Casa 916 en Agosto de 2018.]{.project-materials}
+
+El proyecto Espectral: Escucha de un paisaje intervenido, es una experiencia sonora accesible ofrecida al público, donde un ambiente ajeno es traído al lugar expositivo, generando una experiencia pocas veces vivida en un espacio de exhibición. Los colectivos que desarrollan la obra, llevan y dislocan un ambiente extraño, no en su conformación de este sino a propósito de su abandono. Un túnel de más de 100 años de historia que ha quedado a las inclemencias de la naturaleza, por la salida de nuestro país de las lógicas desarrollistas, dejando un cadáver de un tiempo donde la explotación carbonífera, en las napas marinas, conectaba el litoral con el cordón ferroviario nacional, en dirección inclaudicable a su centro.
+ 
+[Documentación completa y video](https://misaa.cc/projects/espectral.html)
+:::
+:::
+
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+
+
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+
+::: {.project .project-right}
+::: {.project-image}
+![Vista general de la obra. Fotografía por Bárbara Molina](./images/edh.jpg)
+:::
+
+::: {.project-text}
+## Ensayo de horizontalidad (2017)
+
+[INSTALACIÓN SONORA]{.project-subtitle}
+[8 Baquetas, 8 servomotores, Arduino, plataforma circular de 150cm de diámetro, objetos de desecho, sección de código. 3er lugar con Concurso de Arte y Tecnología en Homenaje a Matilde Pérez
+]{.project-materials}
+
+La propuesta de la obra consiste en resignificar objetos hallados e identitarios de un sector de la ciudad, y a través de las tecnologías digitales, transformarlos en distintas voces que dialogan en torno a un centro, emulando un acto conversacional cotidiano. La carencia de rasgos de cada uno de los "percutores", nos habla de una relación comunicativa en la que las distintas voces se entienden y valoran por su sonido (su relato), más allá de sus características de sexo, edad, religión, clase, género, etc. El algoritmo creado juega dándole a cada baqueta el turno de proponer un ritmo (un tema), y las demás contestan en distintas instancias, o eligen silenciarse, emulando un diálogo cualquiera.
+
+[Documentación completa](https://misaa.cc/projects/edh.html)
+:::
+:::
+
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+
+
+<!-- ============================================================
+     PÁGINA DE CIERRE — contacto y enlaces
+     ============================================================ -->
+::: {.closing style="background-image: url('./images/tarj-pres.jpg')"}
+::: {.closing-content}
+## Matías Serrano Acevedo
+
+[https://misaa.cc](https://misaa.cc){.closing-link}
+
+[instagram](https://instagram.com/misaa.cc){.closing-link}
+
+[github](https://github.com/misaaaaaa){.closing-link}
+
+[mail](mailto:matias.serranoacevedo@gmail.com){.closing-link}
+:::
+
+::: {.closing-footer}
+Portafolio construido en Markdown + [paged.js](https://pagedjs.org) · Código fuente en [github.com/misaaaaaa/portfolio](https://github.com/misaaaaaa/portfolio)
+:::
+:::
+
+<!-- FIN PÁGINA DE CIERRE -->

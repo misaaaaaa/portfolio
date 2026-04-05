@@ -22,7 +22,8 @@ portfolio/
 ├── content.md        ← Edita aquí tu contenido
 ├── style.css         ← Diseño y tipografía
 ├── template.html     ← Plantilla HTML para Pandoc (no tocar)
-├── build.sh          ← Script de compilación
+├── build.sh          ← Compila y abre Chrome para previsualizar
+├── export-pdf.sh     ← Compila y exporta el PDF automáticamente
 └── images/
     └── ...           ← Tus imágenes aquí
 ```
@@ -47,11 +48,25 @@ sudo apt install pandoc
 ## Uso
 
 ```bash
-chmod +x build.sh
-./build.sh
+chmod +x build.sh export-pdf.sh
+./build.sh       # compila y abre Chrome para previsualizar
+./export-pdf.sh  # compila y exporta el PDF automáticamente
 ```
 
-Luego abre `portfolio.html` en **Google Chrome**:
+### Exportación automática (`export-pdf.sh`)
+
+Requiere instalar Playwright **una sola vez**:
+
+```bash
+pip install playwright
+playwright install chromium
+```
+
+Genera `portfolio.pdf` directamente sin abrir el navegador.
+
+### Previsualización manual (`build.sh`)
+
+Abre `portfolio.html` en **Google Chrome**:
 
 1. Espera a que paged.js termine de paginar
 2. `Cmd+P` → Guardar como PDF
