@@ -9,7 +9,7 @@ lang: es
      ============================================================ -->
 ::: {.cover style="background-image: url('./images/lamemoria4.png')"}
 
-[Trabajo seleccionado para convocatoria DOCK-MAVI UC]{.cover-subtitle}
+[Trabajo seleccionado]{.cover-subtitle}
 
 # Portafolio {.cover-title}
 
