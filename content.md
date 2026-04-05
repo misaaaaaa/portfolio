@@ -9,6 +9,8 @@ lang: es
      ============================================================ -->
 ::: {.cover style="background-image: url('./images/lamemoria4.png')"}
 
+[Trabajo seleccionado para convocatoria DOCK-MAVI UC]{.cover-subtitle}
+
 # Portafolio {.cover-title}
 
 ::: {.cover-meta}
@@ -40,7 +42,7 @@ Académico adjunto y parte del Núcleo de Artes Sonoras del Departamento de Arte
      ============================================================ -->
 ::: {.statement}
 ::: {.statement-left}
-## Statement
+## 
 
 ::: {.statement-image}
 ![Fotografía por Matías Serrano](./images/uyd8-vert.jpg)
@@ -48,7 +50,7 @@ Académico adjunto y parte del Núcleo de Artes Sonoras del Departamento de Arte
 :::
 
 ::: {.statement-body}
-Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando técnicas de fabricación electrónica, hackeo y ensamblaje de objetos con prácticas de escucha situada y paisajismo sonoro. De inspiración de filosofías cosmológicas, concibo al arte sonoro como una exploración de los flujos y fuerzas en la naturaleza que se manifiestan en interacciones materiales, articuladas desde la escucha.
+Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando técnicas de fabricación electrónica, hackeo y ensamblaje de objetos con prácticas de escucha situada y registros de campo. Inspirado en filosofías cosmológicas, concibo al arte sonoro como una exploración de los flujos y fuerzas en la naturaleza que se manifiestan en interacciones materiales, articuladas desde la escucha.
 
 [“Estamos inmersos en [el ruido] hasta el cuello, hasta los ojos y hasta la coronilla, en un océano furioso, iracundo; mejor aún, somos de parte a parte la voz de este huracán, ese bramido térmico, y no sabemos nada de ello.” — Michel Serres]{.statement-quote}
 :::
@@ -77,7 +79,7 @@ Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando t�
 [Instalación + Rainer Krause]{.project-subtitle}
 [Andamio intervenido, 5 parlantes, archivo de audio de 5 canales, 4 dibujos de acuarela y tinta china sobre papel, 3 circuitos electrónicos generadores de ruido de lluvia]{.project-materials}
 
-"_Llluvia Metropolitana_ emerge alrededor de una premisa sonora que intenciona la experiencia sensible con el clima. Los artistas instalaron un sistema de grabación en los techos de zinc de la galería durante el período de lluvias invernales. Parte de este registro se nos presenta desde una altura a la que podemos acceder cuando subimos por un andamio reforzado. Se propone entonces un encuentro entre una lluvia anterior, o quizás una lluvia en pausa, que frente a la sensación atmosférica calurosa y seca, propia de enero en la ciudad, propone a lo menos una disonancia."
+"_Llluvia Metropolitana_ emerge alrededor de una premisa sonora que intenciona la experiencia sensible con el clima. Los artistas instalaron un sistema de grabación en los techos de zinc de la galería durante el período de lluvias invernales. Parte de este registro se nos presenta desde una altura a la que podemos acceder cuando subimos por un andamio reforzado. Se propone entonces un encuentro entre una lluvia anterior, o quizás una lluvia en pausa, que frente a la sensación atmosférica calurosa y seca, propia de enero en la ciudad, propone a lo menos una disonancia." — Extracto de texto por Catalina Montero
 
 [Documentación completa y video](https://misaa.cc/projects/llluviametropolitana.html)
 :::
@@ -116,9 +118,9 @@ El proyecto expositivo consiste en una sola gran obra ensamblada a partir de ele
 [10 placas electrónicas con circuito de compuertas NAND y driver, 10 bobinas de baja impedancia, 10 imanes, alambre esmaltado. 120 x 270 cm
 ]{.project-materials}
 
-Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Artes Sonoras en Museo MAC de Quinta Normal. 
+Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Artes Sonoras en Museo MAC de Quinta Normal.
 
-El concepto de “nube” en la tecnología electrónica opera como una metáfora que propone un desacoplamiento de los dispositivos con la tierra. Sin embargo, ese lenguaje parece olvidar que toda tecnología tiene un origen en el suelo. El silicio, materia prima de los transistores y procesadores, es el segundo material más abundante en la tierra. El cobre conduce y conecta la geopolítica global, como sugiere Ingrid Wildi. El plástico proviene de milenarios combustibles fósiles. Según Jussi Parikka, estos elementos en su uso se degradan a sí mismos, retornando a su condición de “polvo”. En el trayecto, por medio de diversas energías, se mueven, transforman y relacionan.
+"El concepto de “nube” en la tecnología electrónica opera como una metáfora que propone un desacoplamiento de los dispositivos con la tierra. Sin embargo, ese lenguaje parece olvidar que toda tecnología tiene un origen en el suelo. El silicio, materia prima de los transistores y procesadores, es el segundo material más abundante en la tierra. El cobre conduce y conecta la geopolítica global, como sugiere Ingrid Wildi. El plástico proviene de milenarios combustibles fósiles. Según Jussi Parikka, estos elementos en su uso se degradan a sí mismos, retornando a su condición de “polvo”. En el trayecto, por medio de diversas energías, se mueven, transforman y relacionan." — Extracto cédula
 
 [Documentación completa y video](https://misaa.cc/projects/transistoresentransito.html)
 :::
@@ -143,9 +145,10 @@ El concepto de “nube” en la tecnología electrónica opera como una metáfor
 [INSTALACIÓN]{.project-subtitle}
 [3 piolas de acero, 3 bobinas de alta impedancia, 3 bobinas de baja impedancia, 6 imanes de neodimio, tensores, 3 amplificadores de audio, 3 placas electrónicas con circuito astable 700 x 350 x 50 cm]{.project-materials}
 
- Un trazo en el oído especula sobre el vínculo entre dos hipótesis antropológicas. La primera, proveniente de la arqueoacústica, sugiere que el sitio específico de la cueva donde el sujeto prehistórico decidió realizar arte rupestre se habría elegido debido a la presencia de fenómenos sonoros extraños, generados por las propiedades acústicas del lugar.
+Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Artes Sonoras en Museo MAC de Quinta Normal.
 
-Por otra parte, Fernand Deligny realiza una metáfora sobre “lo arácnido” al insinuar que las arañas tejen sus telarañas sin necesidad de que se les eduque al respecto. A partir de ello, se pregunta qué sería “lo humano”, y sugiere que ese gesto distintivo sería el de “trazar”. A partir de lo anterior, la obra plantea que el acto de trazar/tejer comienza en la extrañeza que representan los fenómenos acústicos, a los que accedemos desde antes de nacer. 
+"La obra plantea que el acto de trazar/tejer comienza en la extrañeza que representan los fenómenos acústicos, a los que accedemos desde antes de nacer. Por medio de materiales industriales se activa electromagnéticamente una pared para que resuene y amplifique su plasticidad inherente." — Extracto cédula  
+
 [Documentación completa y video](https://misaa.cc/projects/untrazoeneloido.html)
 :::
 :::
@@ -180,7 +183,7 @@ Por otra parte, Fernand Deligny realiza una metáfora sobre “lo arácnido” a
 [PROYECTO EXPOSITIVO]{.project-subtitle}
 [7 ensamblajes basados en reproductores de audio, discos duros, atriles de micrófono y lupas. Piedras de canto rodado e impresión en canvas.]{.project-materials}
 
- Inspirado por el trabajo audiovisual de Amel Baggs en In my language (2007) y de los dibujos de los movimientos cotidianos de niños autistas realizados por Fernand Deligny, me propuse retroceder a los gestos y rasgos que los diagnósticos psiquiátricos ligados al espectro autista buscan envolver, sugiriendo el concepto de “sensibilidad extraña”. Desde esta idea, generé instancias de escucha donde dialogué con personas adultas que, independiente de si contaban o no con un diagnóstico, me comentaron sus historias, dudas, rasgos y comportamientos que podrían ser calificados como extraños. A través de la exposición, reflexiono en torno a las percepciones, rasgos y gestos extraños, especulando sobre los límites y categorías de lo que significa ser una persona. 
+ "Inspirado" por el trabajo audiovisual de Amel Baggs en In my language (2007) y de los dibujos de los movimientos cotidianos de niños autistas realizados por Fernand Deligny, me propuse retroceder a los gestos y rasgos que los diagnósticos psiquiátricos ligados al espectro autista buscan envolver, sugiriendo el concepto de “sensibilidad extraña”. Desde esta idea, generé instancias de escucha donde dialogué con personas adultas que, independiente de si contaban o no con un diagnóstico, me comentaron sus historias, dudas, rasgos y comportamientos que podrían ser calificados como extraños. A través de la exposición, reflexiono en torno a las percepciones, rasgos y gestos extraños, especulando sobre los límites y categorías de lo que significa ser una persona." — Extracto de texto muro 
  
 [Documentación completa y video](https://misaa.cc/projects/amplificarladuda.html)
 :::
@@ -245,7 +248,7 @@ Por otra parte, Fernand Deligny realiza una metáfora sobre “lo arácnido” a
 [INSTALACIÓN]{.project-subtitle}
 [2 discos duros modificados, ampolleta incandescente, reproductor y amplificador de audio estéreo. Obra ganadora premio del público XVI Premio MAVI UC]{.project-materials}
 
-Dos discos duros son modificados para cumplir otra función. Ya no almacenan memorias, sino que según la vibración de su aguja se convierten en parlantes. El sonido que genera cada pieza es el registro de una de las últimas lluvias del 2021 en Santiago. En poca fidelidad, ambos discos duros intentan reconstruir el relato sonoro de lo que fue esa lluvia. No es posible que un aparato que no fue diseñado para reproducir sonido genere una buena experiencia sonora de la lluvia, y tampoco es posible que un aparato de registro/reproducción cualquiera se acerque mínimamente a la experiencia de la percepción. Es una lluvia torpe, que no deja charcos. 
+"Dos discos duros son modificados para cumplir otra función. Ya no almacenan memorias, sino que según la vibración de su aguja se convierten en parlantes. El sonido que genera cada pieza es el registro de una de las últimas lluvias del 2021 en Santiago. En poca fidelidad, ambos discos duros intentan reconstruir el relato sonoro de lo que fue esa lluvia. No es posible que un aparato que no fue diseñado para reproducir sonido genere una buena experiencia sonora de la lluvia, y tampoco es posible que un aparato de registro/reproducción cualquiera se acerque mínimamente a la experiencia de la percepción. Es una lluvia torpe, que no deja charcos." — Extracto de texto de obra 
  
 [Documentación completa y video](https://misaa.cc/projects/lamemoria.html)
 :::
@@ -271,7 +274,7 @@ Dos discos duros son modificados para cumplir otra función. Ya no almacenan mem
 [PERFORMANCE + INSTALACIÓN]{.project-subtitle}
 [Instalación sonora cuadrafónica, resultado de performance en Túnel Punta de Parra junto a AOIR Laboratorio Sonoro. Montada en Casa 916 en Agosto de 2018.]{.project-materials}
 
-El proyecto Espectral: Escucha de un paisaje intervenido, es una experiencia sonora accesible ofrecida al público, donde un ambiente ajeno es traído al lugar expositivo, generando una experiencia pocas veces vivida en un espacio de exhibición. Los colectivos que desarrollan la obra, llevan y dislocan un ambiente extraño, no en su conformación de este sino a propósito de su abandono. Un túnel de más de 100 años de historia que ha quedado a las inclemencias de la naturaleza, por la salida de nuestro país de las lógicas desarrollistas, dejando un cadáver de un tiempo donde la explotación carbonífera, en las napas marinas, conectaba el litoral con el cordón ferroviario nacional, en dirección inclaudicable a su centro.
+"El proyecto Espectral: Escucha de un paisaje intervenido, es una experiencia sonora accesible ofrecida al público, donde un ambiente ajeno es traído al lugar expositivo, generando una experiencia pocas veces vivida en un espacio de exhibición. Los colectivos que desarrollan la obra, llevan y dislocan un ambiente extraño, no en su conformación de este sino a propósito de su abandono. Un túnel de más de 100 años de historia que ha quedado a las inclemencias de la naturaleza, por la salida de nuestro país de las lógicas desarrollistas, dejando un cadáver de un tiempo donde la explotación carbonífera, en las napas marinas, conectaba el litoral con el cordón ferroviario nacional, en dirección inclaudicable a su centro." Extracto de texto de Matías Allende
  
 [Documentación completa y video](https://misaa.cc/projects/espectral.html)
 :::
@@ -298,7 +301,7 @@ El proyecto Espectral: Escucha de un paisaje intervenido, es una experiencia son
 [8 Baquetas, 8 servomotores, Arduino, plataforma circular de 150cm de diámetro, objetos de desecho, sección de código. 3er lugar con Concurso de Arte y Tecnología en Homenaje a Matilde Pérez
 ]{.project-materials}
 
-La propuesta de la obra consiste en resignificar objetos hallados e identitarios de un sector de la ciudad, y a través de las tecnologías digitales, transformarlos en distintas voces que dialogan en torno a un centro, emulando un acto conversacional cotidiano. La carencia de rasgos de cada uno de los "percutores", nos habla de una relación comunicativa en la que las distintas voces se entienden y valoran por su sonido (su relato), más allá de sus características de sexo, edad, religión, clase, género, etc. El algoritmo creado juega dándole a cada baqueta el turno de proponer un ritmo (un tema), y las demás contestan en distintas instancias, o eligen silenciarse, emulando un diálogo cualquiera.
+"La propuesta de la obra consiste en resignificar objetos hallados e identitarios de un sector de la ciudad, y a través de las tecnologías digitales, transformarlos en distintas voces que dialogan en torno a un centro, emulando un acto conversacional cotidiano. La carencia de rasgos de cada uno de los "percutores", nos habla de una relación comunicativa en la que las distintas voces se entienden y valoran por su sonido (su relato), más allá de sus características de sexo, edad, religión, clase, género, etc. El algoritmo creado juega dándole a cada baqueta el turno de proponer un ritmo (un tema), y las demás contestan en distintas instancias, o eligen silenciarse, emulando un diálogo cualquiera." — Extracto de texto de sala
 
 [Documentación completa](https://misaa.cc/projects/edh.html)
 :::
@@ -321,6 +324,8 @@ La propuesta de la obra consiste en resignificar objetos hallados e identitarios
 [instagram](https://instagram.com/misaa.cc){.closing-link}
 
 [github](https://github.com/misaaaaaa){.closing-link}
+
+[full cv](https://misaa.cc/cv.html){.closing-link}
 
 [mail](mailto:matias.serranoacevedo@gmail.com){.closing-link}
 :::

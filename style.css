@@ -100,6 +100,20 @@ body {
   z-index: 2;
 }
 
+.cover-subtitle {
+  display: block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 9pt;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.cover p:has(.cover-subtitle) {
+  margin: 0 0 0.14in 0;
+}
+
 .cover h1 {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
@@ -171,8 +185,8 @@ body {
 .bio > h2:first-child,
 .bio > h2 {
   grid-column: 1;
-  font-family: 'Cormorant', serif;
-  font-weight: 300;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
   font-size: 11pt;
   letter-spacing: 0.5em;
   text-transform: uppercase;
@@ -222,19 +236,6 @@ body {
   border-right: 1px solid var(--border);
 }
 
-.statement-left > h2 {
-  position: absolute;
-  top: 0.5in;
-  left: 0.45in;
-  font-family: 'Jost', sans-serif;
-  font-weight: 300;
-  font-size: 10pt;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  color: rgba(240, 236, 230, 0.80);
-  z-index: 1;
-}
-
 /* Imagen ocupa toda la columna izquierda */
 .statement-image {
   width: 100%;
@@ -272,12 +273,12 @@ body {
   display: block;
   font-family: 'Cormorant', serif;
   font-style: italic;
-  font-size: 12pt;
+  font-size: 14pt;
   line-height: 1.7;
-  color: var(--text-dim);
+  color: var(--text);
   margin-top: 0.5in;
   padding-top: 0.25in;
-  border-top: 0.5px solid var(--border);
+  border-top: 1px solid var(--accent);
 }
 
 
@@ -344,10 +345,10 @@ body {
 
 /* --- Texto --- */
 .project-text {
-  padding: 0 0.6in 0.6in 0.65in;
+  padding: 0.35in 0.35in 0.35in 0.4in;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   border-left: 1px solid var(--border);
   position: relative;
 }
@@ -359,7 +360,7 @@ body {
   font-size: 28pt;
   line-height: 1.1;
   color: var(--text);
-  margin-bottom: 0.07in;
+  margin-bottom: 0;
   position: relative;
   z-index: 1;
 }
@@ -370,17 +371,17 @@ body {
   font-size: 9pt;
   line-height: 1.7;
   color: var(--text-dim);
-  margin-bottom: 0.12in;
-  padding-left: 0.2in;
+  margin-bottom: 0;
+  padding-left: 0;
   position: relative;
   z-index: 1;
 }
 
-/* Eliminar padding extra en el párrafo del subtítulo y materiales */
+/* Sin sangría en subtítulo y materiales */
 .project-text p:has(.project-subtitle),
 .project-text p:has(.project-materials) {
   padding-left: 0;
-  margin-bottom: 0.05in;
+  margin-bottom: 0;
 }
 
 /* Materialidad */
@@ -393,7 +394,6 @@ body {
   opacity: 0.7;
   position: relative;
   z-index: 1;
-  margin-bottom: 0.18in;
 }
 
 /* Hipervínculo / técnica */
@@ -414,7 +414,7 @@ body {
 
 /* Línea separadora sobre el hipervínculo */
 .project-text p:last-of-type {
-  margin-bottom: 0.08in;
+  margin-bottom: 0;
 }
 
 /* Subtítulo de categoría (instalación, concierto, residencia, etc.) */
