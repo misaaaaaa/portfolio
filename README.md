@@ -155,8 +155,6 @@ El texto alternativo de la imagen aparece como crédito fotográfico superpuesto
 :::
 
 ::: {.project-text}
-[01]{.project-number}
-
 ## Título de la obra
 
 [Instalación]{.project-subtitle}
@@ -185,22 +183,62 @@ El texto alternativo aparece como crédito en la esquina inferior derecha.
 
 ---
 
+### Página de cierre
+
+Página final con imagen de fondo, datos de contacto centrados y un footer.
+
+```markdown
+::: {.closing style="background-image: url('./images/foto.jpg')"}
+::: {.closing-content}
+## Nombre Artista
+
+[tu-sitio.com](https://tu-sitio.com){.closing-link}
+
+[instagram.com/usuario](https://instagram.com/usuario){.closing-link}
+
+[contacto@email.com](mailto:contacto@email.com){.closing-link}
+:::
+
+::: {.closing-footer}
+Texto de pie de página
+:::
+:::
+```
+
+---
+
+### Crédito fotográfico oscuro
+
+Por defecto los créditos de imagen son claros (para fondos oscuros). Añade `.caption-dark` cuando la imagen tiene zonas claras donde el texto se pierde:
+
+```markdown
+::: {.fullpage .caption-dark}
+![Crédito](./images/foto.jpg)
+:::
+
+::: {.project .caption-dark}
+...
+:::
+```
+
+---
+
 ## Colores
 
 ```css
 :root {
-  --bg:       #0d0d0d;   /* Fondo general */
-  --text:     #e2ddd5;   /* Texto principal */
-  --text-dim: #5c5956;   /* Texto secundario */
-  --accent:   #a0a0a0;   /* Gris claro (títulos, enlaces) */
-  --border:   #1c1c1c;   /* Líneas separadoras */
+  --bg:       #222222;   /* Fondo general */
+  --text:     #f0ece6;   /* Texto principal */
+  --text-dim: #807d7a;   /* Texto secundario */
+  --accent:   #b8b8b8;   /* Gris claro (títulos, enlaces) */
+  --border:   #313131;   /* Líneas separadoras */
 }
 ```
 
 ## Tipografía
 
 - **IBM Plex Mono** — cuerpo de texto, títulos de proyectos, descripciones
-- **Cormorant** — número de proyecto de fondo, etiqueta BIOGRAFÍA
+- **Cormorant** — etiqueta BIOGRAFÍA
 - **Jost** — etiqueta STATEMENT
 
 Las fuentes se cargan desde Google Fonts en `template.html`.
