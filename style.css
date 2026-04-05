@@ -64,9 +64,6 @@ body {
   padding: 0.65in 0.8in;
   break-after: page;
   overflow: hidden;
-
-  /* Imagen de fondo de portada */
-  background-image: url('images/lamemoria4.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -98,9 +95,9 @@ body {
 }
 
 /* Todo el contenido de la portada por encima del overlay */
-.cover > * {
+.cover > *:not(.page-bg) {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .cover h1 {
@@ -131,7 +128,7 @@ body {
   font-size: 11pt;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-dim);
+  color: var(--text);
 }
 
 .cover .url {

@@ -7,7 +7,7 @@ lang: es
      PORTADA — una sola por documento.
      cover-title: título principal · artist-name: nombre · url: enlace al sitio
      ============================================================ -->
-::: {.cover}
+::: {.cover style="background-image: url('./images/lamemoria4.png')"}
 
 # Portafolio {.cover-title}
 
