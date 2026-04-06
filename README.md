@@ -155,10 +155,12 @@ El texto alternativo de la imagen aparece como crédito fotográfico superpuesto
 :::
 
 ::: {.project-text}
+[Galеría Nombre. Ciudad, País]{.project-location}
+
 ## Título de la obra
 
 [Instalación]{.project-subtitle}
-[Circuitos, parlantes, madera]{.project-materials}
+[Materialidad: Circuitos, parlantes, madera, etc.]{.project-materials}
 
 Descripción de la obra...
 
@@ -167,7 +169,9 @@ Descripción de la obra...
 :::
 ```
 
-Campos opcionales que pueden omitirse: `.project-materials`.
+Campos opcionales que pueden omitirse: `.project-location`, `.project-materials`.
+
+El lugar (`.project-location`) aparece encima del título, pegado a él.
 
 ---
 
@@ -178,6 +182,32 @@ El texto alternativo aparece como crédito en la esquina inferior derecha.
 ```markdown
 ::: {.fullpage}
 ![Título, año. Foto: Nombre Apellido](./images/foto.jpg)
+:::
+```
+
+---
+
+### Docencia y residencias
+
+Página de dos columnas para información curricular síntetica.
+
+```markdown
+::: {.cv-spread}
+::: {.cv-col .cv-col-left}
+## Docencia
+
+[Nota o número de cursos]{.cv-meta}
+
+[Nombre del curso]{.cv-item-title}
+[Institución · Período]{.cv-item-detail}
+:::
+
+::: {.cv-col .cv-col-right}
+## Residencias
+
+[Año · Nombre de la residencia]{.cv-item-title}
+[Lugar]{.cv-item-detail}
+:::
 :::
 ```
 
@@ -216,7 +246,7 @@ Por defecto los créditos de imagen son claros (para fondos oscuros). Añade `.c
 ![Crédito](./images/foto.jpg)
 :::
 
-::: {.project .caption-dark}
+::: {.project .project-right .caption-dark}
 ...
 :::
 ```
@@ -239,7 +269,6 @@ Por defecto los créditos de imagen son claros (para fondos oscuros). Añade `.c
 
 - **IBM Plex Mono** — cuerpo de texto, títulos de proyectos, descripciones
 - **Cormorant** — etiqueta BIOGRAFÍA
-- **Jost** — etiqueta STATEMENT
 
 Las fuentes se cargan desde Google Fonts en `template.html`.
 
