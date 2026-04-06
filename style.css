@@ -68,20 +68,6 @@ body {
   background-position: center;
 }
 
-/* Capa de oscurecimiento sobre la imagen */
-.cover::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(34, 34, 34, 0.97) 0%,
-    rgba(34, 34, 34, 0.75) 45%,
-    rgba(34, 34, 34, 0.40) 100%
-  );
-  z-index: 0;
-}
-
 /* Línea decorativa vertical */
 .cover::after {
   content: '';
@@ -107,7 +93,7 @@ body {
   font-size: 9pt;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--text-dim);
+  color: var(--text);
 }
 
 .cover p:has(.cover-subtitle) {
@@ -360,7 +346,8 @@ body {
   font-size: 28pt;
   line-height: 1.1;
   color: var(--text);
-  margin-bottom: 0;
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
   position: relative;
   z-index: 1;
 }
@@ -377,8 +364,9 @@ body {
   z-index: 1;
 }
 
-/* Sin sangría en subtítulo y materiales */
+/* Sin sangría en subtítulo, lugar y materiales */
 .project-text p:has(.project-subtitle),
+.project-text p:has(.project-location),
 .project-text p:has(.project-materials) {
   padding-left: 0;
   margin-bottom: 0;
@@ -429,6 +417,23 @@ body {
   z-index: 1;
 }
 
+/* Lugar / venue */
+.project-location {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8pt;
+  letter-spacing: 0.15em;
+  color: var(--text-dim);
+  opacity: 0.75;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.project-text p:has(.project-location) {
+  margin-bottom: 0;
+}
+
 
 /* ============================================================
    PÁGINA IMAGEN COMPLETA
@@ -472,6 +477,78 @@ body {
 
 
 /* ============================================================
+   DOCENCIA + RESIDENCIAS (spread de dos columnas)
+   ============================================================ */
+.cv-spread {
+  width: var(--page-w);
+  height: var(--page-h);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  break-after: page;
+}
+
+.cv-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.65in 0.7in;
+  overflow: hidden;
+}
+
+.cv-col-left {
+  border-right: 1px solid var(--border);
+}
+
+.cv-spread h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 8.5pt;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.3in;
+}
+
+.cv-meta {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  opacity: 0.7;
+}
+
+.cv-spread p:has(.cv-meta) {
+  margin-top: -0.2in;
+  margin-bottom: 0.3in;
+}
+
+.cv-item-title {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5pt;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.cv-item-detail {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5pt;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+}
+
+.cv-col p {
+  margin-bottom: 0.14in;
+}
+
+.cv-col p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ============================================================
    PÁGINA DE CIERRE
    ============================================================ */
 .closing {
@@ -486,15 +563,6 @@ body {
   padding: 0.8in;
   background-size: cover;
   background-position: center;
-}
-
-/* Overlay oscuro sobre la imagen de fondo */
-.closing::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(13, 13, 13, 0.65);
-  z-index: 0;
 }
 
 .closing > * {

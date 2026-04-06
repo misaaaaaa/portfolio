@@ -74,6 +74,8 @@ Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando t�
 :::
 
 ::: {.project-text}
+[Galería Metropolitana. Santiago, Chile]{.project-location}
+
 ## Llluvia Metropolitana (2026)
 
 [Instalación + Rainer Krause]{.project-subtitle}
@@ -91,6 +93,8 @@ Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando t�
 :::
 
 ::: {.project-text}
+[Galería Metropolitana. Santiago, Chile]{.project-location}
+
 ## Llluvia Metropolitana (2026)
 
 [Instalación + Rainer Krause]{.project-subtitle}
@@ -106,12 +110,61 @@ El proyecto expositivo consiste en una sola gran obra ensamblada a partir de ele
 <!-- INICIO PROYECTO DERECHO -->
 <!-- INICIO PROYECTO DERECHO -->
 
+::: {.project .project-right }
+::: {.project-image}
+![Vista de oí 2 en sala. Fotografía por Matías Serrano](./images/cuandotodas6.png)
+:::
+
+::: {.project-text}
+[Galería Artes Visuales UNIACC. Santiago, Chile]{.project-location}
+
+## Cuando todas las palabras sean borradas (2025)
+
+[EXPOSICIÓN A DÚO + ALMENDRA DÍAZ]{.project-subtitle}
+[
+     _oí 1_. Instalación Ladrillo de concreto, piola de acero, motor paso a paso unipolar, piedra de canto rodado, microcontrolador atmega328p 
+]{.project-materials}
+
+[
+     _oí 2_. Instalación. Monitor Sony PVM-8020, eslinga de amarre, Raspberry Pi 4, audio en estéreo e imagen generativa en p5.js, audífonos 
+]{.project-materials}
+
+[
+     _oí 3_. Ensamblaje. Frasco de vidrio, bolitas transparentes, pieza de tercera mano, motor de microondas, cordón eléctrico, gancho de acero 
+]{.project-materials}
+
+"El adjetivo no implica carencia de valor, sino una voluntad de situarse fuera del régimen del significado: objetos que no devienen signo, que no aspiran a construir sentido. Se trata de una propuesta material que explora la contingencia de los materiales, en tanto estados puntuales de una materia afectada por fuerzas externas. Son, quizás, el sustrato actual para metáforas futuras. Objetos sin función, sin intención comunicativa, sin correlación con un sujeto: fragmentos de materia que solo dan cuenta de los flujos energéticos que los han atravesado, y que no buscan ser leídos, sino simplemente estar." — Extracto de texto curatorial
+
+[Documentación completa](https://misaa.cc/projects/cuandotodaslaspalabras.html)
+:::
+:::
+
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+
+<!-- ============================================================
+     PÁGINA IMAGEN COMPLETA 
+     ============================================================ -->
+::: {.fullpage}
+![Vistas de oí 3 y oí 1. Fotografías por Sergio Toledo y Matías Serrano, respectivamente ](./images/cuandotodas-doble.jpg)
+:::
+
+<!-- FIN IMAGEN COMPLETA -->
+
+
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+
 ::: {.project .project-right .caption-dark}
 ::: {.project-image}
 ![Fotografía por Clo Rojo](./images/tent.jpg)
 :::
 
 ::: {.project-text}
+[Museo MAC Quinta Normal. Santiago, Chile]{.project-location}
+
 ## Transistores en tránsito (2025)
 
 [INSTALACIÓN]{.project-subtitle}
@@ -140,6 +193,8 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Museo MAC Quinta Normal. Santiago, Chile]{.project-location}
+
 ## Un trazo en el oído (2025)
 
 [INSTALACIÓN]{.project-subtitle}
@@ -168,6 +223,35 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 
 <!-- FIN IMAGEN COMPLETA -->
 
+
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+<!-- INICIO PROYECTO -->
+
+::: {.project}
+::: {.project-image}
+![Vista general de la instalación. Fotografía por Mana Rivas](./images/lyc4.jpeg)
+:::
+
+::: {.project-text}
+[Museo MAC Quinta Normal. Santiago, Chile]{.project-location}
+
+## Lenguaje y comunicación (2024)
+
+[INSTALACIÓN]{.project-subtitle}
+[3 sillas de plástico negras, 3 audífonos, 3 reproductores de audio, ladrillo de concreto, piedras de río, archivo de audio en mp3 de 28 minutos dividido en 3 partes. Parte de la exposición colectiva Balmaceda Visual: Bordes Fluidos en Museo de Arte Contemporáneo de Quinta Normal. 2024. ]{.project-materials}
+
+ La obra propone una lectura en torno a la comunicación y los gestos que la constituyen. Mediante la amplificación de los espacios negativos de una conversación, como los titubeos, silencios, muletillas y respiraciones, se busca retorcer los conceptos de emisor, receptor y mensaje. La obra sitúa a quien experiencia la obra en medio de un extenso diálogo que parece no llevar a ninguna parte, en el que la conversación de dos personas es editada de forma en que se deja oír solo el ruido entre palabras. La experiencia de la obra se completa al sentarse en una de las tres sillas, alrededor de un ladrillo de concreto que contiene piedras ovaladas, generando una puesta en escena -paradójicamente- tan extraña como habitual. 
+ 
+[Documentación completa](https://misaa.cc/projects/lenguajeycomunicacion.html)
+:::
+:::
+
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+<!-- FIN PROYECTO -->
+
+
 <!-- INICIO PROYECTO -->
 <!-- INICIO PROYECTO -->
 <!-- INICIO PROYECTO -->
@@ -178,6 +262,8 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Sala Juan Egenau. Santiago, Chile]{.project-location}
+
 ## Amplificar la duda (2024)
 
 [PROYECTO EXPOSITIVO]{.project-subtitle}
@@ -216,6 +302,8 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Museo MAC Quinta Normal. Santiago, Chile]{.project-location}
+
 ## Museo en estéreo (2024)
 
 [INSTALACIÓN SONORA]{.project-subtitle}
@@ -243,6 +331,8 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Museo de Artes Visuales. Santiago, Chile]{.project-location}
+
 ## La memoria contándole a la luz el sonido de la lluvia (2023)
 
 [INSTALACIÓN]{.project-subtitle}
@@ -258,6 +348,39 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 <!-- FIN PROYECTO -->
 <!-- FIN PROYECTO -->
 
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+<!-- INICIO PROYECTO DERECHO -->
+
+::: {.project .project-right .caption-dark}
+::: {.project-image}
+![Fotografía por Colectiva 22bits](./images/dispositivas.jpg)
+:::
+
+::: {.project-text}
+[Sala B.A.S.E. Tsonami. Valparaíso, Chile]{.project-location}
+
+## Dispositivas de encarnación (2018)
+
+[INSTALACIÓN + COLECTIVA 22bits + ROSA OYARCE]{.project-subtitle}
+[
+     Resultado de proceso de residencia. 
+]{.project-materials}
+
+El proceso de residencia se inició a partir de una investigación sobre la relación entre las mujeres y la tecnología en Valparaíso, encontrándose en la caleta Portales con Rosa Oyarce y el oficio de las encarnadoras. Es ella quien les enseña cómo se construye el espinel, artefacto que es trabajado por mujeres para la pesca artesanal.
+
+La instalación «Dispositivas de encarnación» nos muestra este oficio y al espinel desde una dimensión sonora y visual, en un ejercicio que no sólo releva la técnica de una tecnología artesanal, sino que también dialoga de cerca con los relatos de vida y las formas de laborar de las mujeres de la caleta. 
+
+Esta obra fue montada también el 2019 en exhibición Marea, (CENTEX, Valparaíso), y en Galería Casa Colorada (Santiago)
+
+[Documentación completa + video](https://misaa.cc/projects/dispositivas.html)
+:::
+:::
+
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+<!-- FIN PROYECTO DERECHO -->
+
 
 <!-- INICIO PROYECTO -->
 <!-- INICIO PROYECTO -->
@@ -269,9 +392,11 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Casa 916. Concepción, Chile]{.project-location}
+
 ## Espectral (2018)
 
-[PERFORMANCE + INSTALACIÓN]{.project-subtitle}
+[PERFORMANCE E INSTALACIÓN + COLECTIVA 22bits]{.project-subtitle}
 [Instalación sonora cuadrafónica, resultado de performance en Túnel Punta de Parra junto a AOIR Laboratorio Sonoro. Montada en Casa 916 en Agosto de 2018.]{.project-materials}
 
 "El proyecto Espectral: Escucha de un paisaje intervenido, es una experiencia sonora accesible ofrecida al público, donde un ambiente ajeno es traído al lugar expositivo, generando una experiencia pocas veces vivida en un espacio de exhibición. Los colectivos que desarrollan la obra, llevan y dislocan un ambiente extraño, no en su conformación de este sino a propósito de su abandono. Un túnel de más de 100 años de historia que ha quedado a las inclemencias de la naturaleza, por la salida de nuestro país de las lógicas desarrollistas, dejando un cadáver de un tiempo donde la explotación carbonífera, en las napas marinas, conectaba el litoral con el cordón ferroviario nacional, en dirección inclaudicable a su centro." Extracto de texto de Matías Allende
@@ -295,6 +420,8 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 :::
 
 ::: {.project-text}
+[Museo MAC Quinta Normal. Santiago, Chile]{.project-location}
+
 ## Ensayo de horizontalidad (2017)
 
 [INSTALACIÓN SONORA]{.project-subtitle}
@@ -313,21 +440,91 @@ Parte de la exposición “Tiempo de Decaimiento Temprano” del Núcleo de Arte
 
 
 <!-- ============================================================
+     DOCENCIA + RESIDENCIAS
+     extraídos de https://misaa.cc/cv.md
+     ============================================================ -->
+::: {.cv-spread}
+::: {.cv-col .cv-col-left}
+## Docencia
+
+[9 cursos · U. de Chile · UDP · UNIACC]{.cv-meta}
+
+[Medios 2]{.cv-item-title}
+[Artes Visuales, U. de Chile · 2022 – Actualidad]{.cv-item-detail}
+
+[Electrónica en Soportes Alternativos]{.cv-item-title}
+[Artes Visuales, U. de Chile · 2023 – 2025]{.cv-item-detail}
+
+[Electrónica: del dato al objeto]{.cv-item-title}
+[Artes Visuales, U. de Chile · 2023 - Actualidad]{.cv-item-detail}
+
+[Aplic. Tecnológicas 1: Electrónica]{.cv-item-title}
+[Artes Visuales, UNIACC · 2023 – 2025]{.cv-item-detail}
+
+[Aplic. Tecnológicas 3: Objeto]{.cv-item-title}
+[Artes Visuales, UNIACC · 2024 – Actualidad]{.cv-item-detail}
+
+[Laboratorio de Arte y Electrónica]{.cv-item-title}
+[Artes Visuales, UDP · 2024 – Actualidad]{.cv-item-detail}
+
+[Taller vertical: Máquinas Electrónicas]{.cv-item-title}
+[Diseño, UDP · 2025 – Actualidad]{.cv-item-detail}
+
+[Taller vertical: Máquinas Computacionales]{.cv-item-title}
+[Diseño, UDP · 2025 - Actualidad]{.cv-item-detail}
+
+[Pensamiento Computacional]{.cv-item-title}
+[Diseño, UDP · 2026 - Actualidad]{.cv-item-detail}
+:::
+
+::: {.cv-col .cv-col-right}
+## Residencias
+
+[2025 · Radicante, Liquen LAB]{.cv-item-title}
+[Estrecho de Magallanes]{.cv-item-detail}
+
+[2024 · Proyecto Error]{.cv-item-title}
+[Ciudad de México]{.cv-item-detail}
+
+[2022 · Utopías y distopías de la modernidad]{.cv-item-title}
+[Isla Rey Jorge, Antártica · inv. Ingrid Wildi Merino]{.cv-item-detail}
+
+[2021 · Soma RUMOR — II Encuentro Latinoamericano de Arte Sonora]{.cv-item-title}
+[Online / Brasil]{.cv-item-detail}
+
+[2019 · Encuentro Tsonami: Prácticas en Contextos de Crisis]{.cv-item-title}
+[Valparaíso, Chile]{.cv-item-detail}
+
+[2019 · Platohedro — La Jacquer EsCool]{.cv-item-title}
+[Medellín, Colombia]{.cv-item-detail}
+
+[2018 · Tsonami, Sala B.A.S.E.]{.cv-item-title}
+[Valparaíso, Chile]{.cv-item-detail}
+
+[2017 · Festival Tsonami]{.cv-item-title}
+[Valparaíso, Chile]{.cv-item-detail}
+:::
+:::
+
+<!-- FIN DOCENCIA + RESIDENCIAS -->
+
+
+<!-- ============================================================
      PÁGINA DE CIERRE — contacto y enlaces
      ============================================================ -->
 ::: {.closing style="background-image: url('./images/tarj-pres.jpg')"}
 ::: {.closing-content}
 ## Matías Serrano Acevedo
 
-[https://misaa.cc](https://misaa.cc){.closing-link}
+[web: https://misaa.cc](https://misaa.cc){.closing-link}
 
-[instagram](https://instagram.com/misaa.cc){.closing-link}
+[instagram: @misaa.cc](https://instagram.com/misaa.cc){.closing-link}
 
-[github](https://github.com/misaaaaaa){.closing-link}
+[github: misaaaaaa](https://github.com/misaaaaaa){.closing-link}
 
-[full cv](https://misaa.cc/cv.html){.closing-link}
+[full cv: misaa.cc/cv.html](https://misaa.cc/cv.html){.closing-link}
 
-[mail](mailto:matias.serranoacevedo@gmail.com){.closing-link}
+[mail: matias.serranoacevedo@gmail.com](mailto:matias.serranoacevedo@gmail.com){.closing-link}
 :::
 
 ::: {.closing-footer}
