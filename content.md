@@ -50,7 +50,7 @@ Académico adjunto y parte del Núcleo de Artes Sonoras del Departamento de Arte
 :::
 
 ::: {.statement-body}
-Mi práctica está orientada a relacionar lo sonoro y lo material, vinculando técnicas de fabricación electrónica, hackeo y ensamblaje de objetos con prácticas de escucha situada y registros de campo. Inspirado en filosofías cosmológicas, concibo al arte sonoro como una exploración de los flujos y fuerzas en la naturaleza que se manifiestan en interacciones materiales, articuladas desde la escucha.
+Las artes sonoras se producen desde materiales, fenómenos y discursos // Las artes sonoras, a su vez, crean materiales, fenómenos y discursos // Lo sonoro tiene que ver con estos tres elementos articulados en la escucha // Las articulaciones producen el espacio-tiempo // Naturaleza, cultura y materia están co-implicados y no pueden entenderse de otra manera que desde su enredamiento // Así, vamos encontrando co-implicaciones, ocasiones actuales: equilibrios precarios, fenómenos de la atmósfera, manifestaciones de gargantas humanas, campos electromagnéticos generados por chips de silicio // Estos y otros flujos intensivos de la naturaleza emergen catastrófica y creativamente desde un fondo energético ruidoso, los cuales —ocasionalmente— conforman lo sonoro.
 
 [“Estamos inmersos en [el ruido] hasta el cuello, hasta los ojos y hasta la coronilla, en un océano furioso, iracundo; mejor aún, somos de parte a parte la voz de este huracán, ese bramido térmico, y no sabemos nada de ello.” — Michel Serres]{.statement-quote}
 :::
@@ -512,7 +512,7 @@ Esta obra fue montada también el 2019 en exhibición Marea, (CENTEX, Valparaís
 <!-- ============================================================
      PÁGINA DE CIERRE — contacto y enlaces
      ============================================================ -->
-::: {.closing style="background-image: url('./images/tarj-pres.jpg')"}
+::: {.closing style="background-image: url('./images/pcb-card.jpeg')"}
 ::: {.closing-content}
 ## Matías Serrano Acevedo
 

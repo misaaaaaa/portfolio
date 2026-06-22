@@ -277,7 +277,7 @@ Las fuentes se cargan desde Google Fonts en `template.html`.
 ## Notas
 
 - paged.js funciona mejor en **Chrome** o **Chromium**
-- Si las imágenes no cargan, verifica que estén en `images/`
+- Si las imágenes no cargan, verifica que estén en `.images/`
 
 ---
 
