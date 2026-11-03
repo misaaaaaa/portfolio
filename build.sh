@@ -35,6 +35,13 @@ echo "→ Iniciando servidor local en http://localhost:$PORT/$OUTPUT ..."
 python3 -m http.server "$PORT" &
 SERVER_PID=$!
 
+# Detiene el servidor al salir, con Ctrl+C o al cerrar la terminal.
+cleanup() {
+  kill "$SERVER_PID" 2>/dev/null && echo "✓ Servidor detenido."
+}
+trap cleanup EXIT
+trap 'exit 130' INT TERM HUP
+
 sleep 0.5
 open -a "Google Chrome" "http://localhost:$PORT/$OUTPUT"
 
@@ -49,5 +56,3 @@ echo "     - Activar: Gráficos de fondo"
 echo ""
 echo "Presiona Enter para detener el servidor cuando termines..."
 read -r
-kill "$SERVER_PID" 2>/dev/null
-echo "✓ Servidor detenido."

@@ -1,16 +1,19 @@
 /* ============================================================
-   PORTFOLIO — Tema editorial oscuro
+   PORTFOLIO — Tema rosa, en sintonía con misaa.cc
    Formato: A4 horizontal (297mm × 210mm)
    Pipeline: Markdown → Pandoc → HTML → paged.js → PDF
    ============================================================ */
 
 /* ---- VARIABLES ---- */
 :root {
-  --bg:           #222222;
-  --text:         #f0ece6;
-  --text-dim:     #807d7a;
-  --accent:       #b8b8b8;
-  --border:       #313131;
+  --bg:           #ffb6c1;
+  --text:         #001418;
+  --text-dim:     #373737;
+  --accent:       #979797;
+  --link:         cornflowerblue;
+  --on-image:     #ffffff;
+  --border:       rgba(0, 20, 24, 0.18);
+  --serif:        'Baskerville', 'Libre Baskerville', serif;
   --page-w:       297mm;
   --page-h:       210mm;
 }
@@ -23,8 +26,7 @@
 }
 
 /* ---- FUENTES ---- */
-/* Cormorant — encabezados y elementos editoriales         */
-/* Jost      — cuerpo de texto, etiquetas, metadata        */
+/* Baskerville (local) o Libre Baskerville (Google Fonts), igual que misaa.cc */
 
 /* ---- CONFIGURACIÓN DE PÁGINA (paged.js) ---- */
 @page {
@@ -39,13 +41,13 @@ html {
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
+  font-family: var(--serif);
+  font-weight: 400;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
 
-/* Fondo oscuro en cada hoja generada por paged.js */
+/* Fondo rosa en cada hoja generada por paged.js */
 .pagedjs_page {
   background: var(--bg) !important;
 }
@@ -76,7 +78,7 @@ body {
   left: 0.8in;
   width: 1px;
   height: 0.5in;
-  background: var(--accent);
+  background: var(--on-image);
   z-index: 1;
 }
 
@@ -88,12 +90,10 @@ body {
 
 .cover-subtitle {
   display: block;
-  font-family: 'Jost', sans-serif;
-  font-weight: 300;
-  font-size: 9pt;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--text);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13pt;
+  color: var(--on-image);
 }
 
 .cover p:has(.cover-subtitle) {
@@ -101,12 +101,12 @@ body {
 }
 
 .cover h1 {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
-  font-size: 60pt;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 54pt;
   line-height: 1.0;
-  letter-spacing: -1px;
-  color: var(--text);
+  text-transform: lowercase;
+  color: var(--on-image);
   margin-bottom: 0.45in;
 }
 
@@ -123,21 +123,19 @@ body {
 
 .cover .artist-name {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--serif);
   font-weight: 400;
-  font-size: 11pt;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--text);
+  font-size: 15pt;
+  text-transform: lowercase;
+  color: var(--on-image);
 }
 
 .cover .url {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
-  font-size: 9pt;
-  letter-spacing: 0.1em;
-  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 11pt;
+  color: var(--on-image);
+  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -146,9 +144,8 @@ body {
   position: absolute;
   top: 0.65in;
   right: 0.8in;
-  font-family: 'Jost', sans-serif;
+  font-family: var(--serif);
   font-size: 8pt;
-  letter-spacing: 0.3em;
   color: var(--text-dim);
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -171,16 +168,14 @@ body {
 .bio > h2:first-child,
 .bio > h2 {
   grid-column: 1;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--serif);
   font-weight: 400;
-  font-size: 11pt;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  color: var(--accent);
-  padding: 0 0.8in;
-  border-right: 1px solid var(--border);
+  font-size: 34pt;
+  text-transform: lowercase;
+  color: var(--text);
+  padding: 0.55in 0.8in 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
 }
 
@@ -193,10 +188,10 @@ body {
 }
 
 .bio-body p {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 13pt;
-  line-height: 1.9;
-  color: var(--text);
+  font-family: var(--serif);
+  font-size: 12.5pt;
+  line-height: 1.55;
+  color: var(--text-dim);
 }
 
 .bio-body p + p {
@@ -219,7 +214,6 @@ body {
 .statement-left {
   position: relative;
   overflow: hidden;
-  border-right: 1px solid var(--border);
 }
 
 /* Imagen ocupa toda la columna izquierda */
@@ -244,10 +238,10 @@ body {
 }
 
 .statement-body p {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 13pt;
-  line-height: 1.9;
-  color: var(--text);
+  font-family: var(--serif);
+  font-size: 12.5pt;
+  line-height: 1.55;
+  color: var(--text-dim);
 }
 
 .statement-body p + p {
@@ -257,10 +251,10 @@ body {
 /* Cita al final del statement */
 .statement-quote {
   display: block;
-  font-family: 'Cormorant', serif;
+  font-family: var(--serif);
   font-style: italic;
-  font-size: 14pt;
-  line-height: 1.7;
+  font-size: 13pt;
+  line-height: 1.6;
   color: var(--text);
   margin-top: 0.5in;
   padding-top: 0.25in;
@@ -290,8 +284,6 @@ body {
 
 .project.project-right .project-text {
   order: 1;
-  border-left: none;
-  border-right: 1px solid var(--border);
 }
 
 /* --- Imagen --- */
@@ -318,10 +310,10 @@ body {
   position: absolute;
   bottom: 0.2in;
   left: 0.3in;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7.5pt;
-  letter-spacing: 0.12em;
-  color: rgba(240, 236, 230, 0.55);
+  font-family: var(--serif);
+  font-size: 9pt;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.75);
   pointer-events: none;
 }
 
@@ -335,16 +327,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-left: 1px solid var(--border);
   position: relative;
 }
 
 /* Título del proyecto */
 .project-text h2 {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--serif);
   font-weight: 400;
-  font-size: 28pt;
-  line-height: 1.1;
+  font-size: 25pt;
+  line-height: 1.12;
+  text-transform: lowercase;
   color: var(--text);
   margin-top: 0.1em;
   margin-bottom: 0.6em;
@@ -354,9 +346,9 @@ body {
 
 /* Descripción */
 .project-text p {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 9pt;
-  line-height: 1.7;
+  font-family: var(--serif);
+  font-size: 10pt;
+  line-height: 1.55;
   color: var(--text-dim);
   margin-bottom: 0;
   padding-left: 0;
@@ -375,26 +367,20 @@ body {
 /* Materialidad */
 .project-materials {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8pt;
-  letter-spacing: 0.05em;
-  color: var(--text-dim);
-  opacity: 0.7;
+  font-family: var(--serif);
+  font-size: 9pt;
+  color: var(--accent);
   position: relative;
   z-index: 1;
 }
 
 /* Hipervínculo / técnica */
 .project-text a {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 9pt;
+  font-family: var(--serif);
+  font-size: 10.5pt;
   font-weight: 400;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--accent);
+  color: var(--link);
   text-decoration: none;
-  border-bottom: 0.5px solid var(--accent);
-  padding-bottom: 3px;
   align-self: flex-start;
   position: relative;
   z-index: 1;
@@ -408,11 +394,10 @@ body {
 /* Subtítulo de categoría (instalación, concierto, residencia, etc.) */
 .project-subtitle {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8.5pt;
-  letter-spacing: 0.4em;
-  text-transform: uppercase;
-  color: var(--text-dim);
+  font-family: var(--serif);
+  font-size: 11pt;
+  text-transform: lowercase;
+  color: var(--accent);
   position: relative;
   z-index: 1;
 }
@@ -420,11 +405,10 @@ body {
 /* Lugar / venue */
 .project-location {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8pt;
-  letter-spacing: 0.15em;
+  font-family: var(--serif);
+  font-size: 10pt;
+  font-style: italic;
   color: var(--text-dim);
-  opacity: 0.75;
   margin-bottom: 0;
   position: relative;
   z-index: 1;
@@ -463,10 +447,10 @@ body {
   position: absolute;
   bottom: 0.35in;
   right: 0.45in;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7.5pt;
-  letter-spacing: 0.12em;
-  color: rgba(240, 236, 230, 0.65);
+  font-family: var(--serif);
+  font-size: 9pt;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.75);
   text-align: right;
   pointer-events: none;
 }
@@ -495,27 +479,20 @@ body {
   overflow: hidden;
 }
 
-.cv-col-left {
-  border-right: 1px solid var(--border);
-}
-
 .cv-spread h2 {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--serif);
   font-weight: 400;
-  font-size: 8.5pt;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  color: var(--accent);
+  font-size: 30pt;
+  text-transform: lowercase;
+  color: var(--text);
   margin-bottom: 0.3in;
 }
 
 .cv-meta {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7pt;
-  letter-spacing: 0.1em;
-  color: var(--text-dim);
-  opacity: 0.7;
+  font-family: var(--serif);
+  font-size: 10pt;
+  color: var(--accent);
 }
 
 .cv-spread p:has(.cv-meta) {
@@ -525,22 +502,21 @@ body {
 
 .cv-item-title {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8.5pt;
+  font-family: var(--serif);
+  font-size: 11pt;
   font-weight: 400;
   color: var(--text);
 }
 
 .cv-item-detail {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7.5pt;
-  letter-spacing: 0.03em;
+  font-family: var(--serif);
+  font-size: 9.5pt;
   color: var(--text-dim);
 }
 
 .cv-col p {
-  margin-bottom: 0.14in;
+  margin-bottom: 0.11in;
 }
 
 .cv-col p:last-child {
@@ -579,21 +555,19 @@ body {
 }
 
 .closing-content h2 {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
-  font-size: 22pt;
-  letter-spacing: 0.05em;
-  color: var(--text);
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 26pt;
+  text-transform: lowercase;
+  color: var(--on-image);
   margin-bottom: 0.12in;
 }
 
 .closing-link {
   display: block;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 10pt;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  color: var(--accent);
+  font-family: var(--serif);
+  font-size: 12pt;
+  color: var(--on-image);
   text-decoration: none;
 }
 
@@ -603,16 +577,16 @@ body {
   left: 0;
   right: 0;
   text-align: center;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 7pt;
-  letter-spacing: 0.1em;
-  color: var(--text-dim);
+  font-family: var(--serif);
+  font-size: 9pt;
+  color: var(--on-image);
+  opacity: 0.8;
 }
 
 .closing-footer a {
-  color: var(--text-dim);
+  color: var(--on-image);
   text-decoration: none;
-  border-bottom: 0.5px solid var(--border);
+  border-bottom: 0.5px solid currentColor;
 }
 
 
@@ -632,6 +606,6 @@ body {
   .statement,
   .project {
     margin-bottom: 0.25in;
-    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
   }
 }

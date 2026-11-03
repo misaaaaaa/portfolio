@@ -70,6 +70,64 @@ Las artes sonoras se producen desde materiales, fenómenos y discursos // Las ar
      ============================================================ -->
 ::: {.project}
 ::: {.project-image}
+![Vista exterior de DOCK durante la residencia](./images/cecile.jpeg)
+:::
+
+::: {.project-text}
+[DOCK Kunstraum, Archiv und Ausleihe. Basilea, Suiza]{.project-location}
+
+## Territórios Reimaginados: Reclaim Regional (2026)
+
+[RESIDENCIA Y EXPOSICIÓN A DÚO + CIEL BAUMGARTNER VIZKELETY]{.project-subtitle}
+[Ensamblajes cinéticos y sonoros con objetos cotidianos recolectados en Basilea, dibujos y kit de poesía magnética. Colaboración entre DOCK y MAVI UC]{.project-materials}
+
+Entre agosto y septiembre de 2026, a través de una convocatoria de MAVI UC, realicé una residencia en DOCK Basel junto a la artista suiza Ciel Baumgartner Vizkelety. Durante un mes usamos el espacio como taller y plataforma de intercambio para un proceso de investigación compartido sobre pertenencia, visibilidad y diversidad cultural, que cuestiona las estructuras coloniales presentes en las residencias artísticas y en los procesos migratorios.
+
+Los resultados se presentaron en una exposición a dúo durante Kunsttage Basel, acompañada de una mesa redonda y un artist talk.
+
+[Documentación completa y video](https://misaa.cc/projects/territoriosreimaginados.html)
+:::
+:::
+
+<!-- INICIO PROYECTO -->
+
+::: {.project .project-right}
+::: {.project-image}
+![Sesión de entrenamiento en la piscina. Fotografía por Sebastián Arriagada](./images/aprox3.jpg)
+:::
+
+::: {.project-text}
+[Piscina Campo Deportivo Juan Gómez Millas, U. de Chile. Santiago, Chile]{.project-location}
+
+## Aproximaciones subacuáticas (2025–2026)
+
+[INVESTIGACIÓN Y CONCIERTO + CLUB SONORO DEPORTIVO]{.project-subtitle}
+[Con Fernanda Fábrega y Santiago Corvalán. Entrenadora: Gissela Cabrera. Performers: Amparo Saona, Deysi Cruz, Inti Vega, Jenniffer Verdugo, Sergio Menares y Sofía Hurtado. Fondart Nacional 2025]{.project-materials}
+
+Proyecto de investigación que explora la relación entre la natación, la escucha y la creación sonora. En sesiones mensuales, un grupo de nadadorxs no profesionales entrenó técnica y resistencia junto con escucha profunda y orientación a través del sonido: otras maneras de cruzar la piscina, escuchar a través de la piel, registrar con hidrófonos y crear cartografías sonoras, partituras y onomatopeyas.
+
+El proceso culminó en _Nada como una metáfora_ (28 de marzo de 2026), concierto sonoro-performativo en el que lxs nadadorxs se vuelven intérpretes, la entrenadora directora de orquesta y la piscina un instrumento. Su registro fue publicado como álbum en vivo por Archivo Veintidós.
+
+[Documentación completa y video](https://misaa.cc/projects/aproximaciones-subacuaticas.html)
+:::
+:::
+
+<!-- FIN PROYECTO -->
+
+<!-- ============================================================
+     PROYECTO — copiar este bloque completo para cada obra.
+     Usa {.project} para imagen a la izquierda (por defecto)
+     Usa {.project .project-right} para imagen a la derecha
+     · project-number: número de fondo (01, 02…)
+     · h2: título de la obra
+     · project-subtitle: Instalación / Concierto / Residencia / …
+     · project-materials: circuitos, parlantes, micrófonos, pintura… (opcional)
+     · párrafo de descripción
+     · enlace: "[Técnica / Año — Ver proyecto →](url)"
+     Alt de la imagen: aparece como crédito fotográfico superpuesto.
+     ============================================================ -->
+::: {.project}
+::: {.project-image}
 ![Vista externa de galería e instalación. Fotografía por Ash Aravena](./images/llluvia7.jpg)
 :::
 
@@ -456,7 +514,7 @@ Esta obra fue montada también el 2019 en exhibición Marea, (CENTEX, Valparaís
 [Artes Visuales, U. de Chile · 2023 – 2025]{.cv-item-detail}
 
 [Electrónica: del dato al objeto]{.cv-item-title}
-[Artes Visuales, U. de Chile · 2023 - Actualidad]{.cv-item-detail}
+[Artes Visuales, U. de Chile · 2023 – Actualidad]{.cv-item-detail}
 
 [Aplic. Tecnológicas 1: Electrónica]{.cv-item-title}
 [Artes Visuales, UNIACC · 2023 – 2025]{.cv-item-detail}
@@ -471,14 +529,17 @@ Esta obra fue montada también el 2019 en exhibición Marea, (CENTEX, Valparaís
 [Diseño, UDP · 2025 – Actualidad]{.cv-item-detail}
 
 [Taller vertical: Máquinas Computacionales]{.cv-item-title}
-[Diseño, UDP · 2025 - Actualidad]{.cv-item-detail}
+[Diseño, UDP · 2025 – Actualidad]{.cv-item-detail}
 
 [Pensamiento Computacional]{.cv-item-title}
-[Diseño, UDP · 2026 - Actualidad]{.cv-item-detail}
+[Diseño, UDP · 2026 – Actualidad]{.cv-item-detail}
 :::
 
 ::: {.cv-col .cv-col-right}
 ## Residencias
+
+[2026 · Territórios Reimaginados: Reclaim Regional]{.cv-item-title}
+[Basel, Suiza · DOCK, convocado por MAVI UC]{.cv-item-detail}
 
 [2025 · Radicante, Liquen LAB]{.cv-item-title}
 [Estrecho de Magallanes]{.cv-item-detail}
